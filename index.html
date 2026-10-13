@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f6f2e9">
+  <meta name="description" content="A wedding invitation celebrating Erma Reclinas and Rod Dacillo on January 23, 2027.">
+  <title>Erma & Rod | Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="paper-grain" aria-hidden="true"></div>
+
+  <main>
+    <section class="envelope-screen" id="envelopeScreen" aria-label="Open wedding invitation">
+      <div class="floating-leaf leaf-one">✦</div>
+      <div class="floating-leaf leaf-two">❧</div>
+      <div class="envelope-wrap">
+        <p class="eyebrow">A little note, a lifetime of love</p>
+        <div class="envelope" id="envelope">
+          <div class="envelope-back"></div>
+          <div class="letter-peek">
+            <span class="mini-label">THE WEDDING OF</span>
+            <span class="mini-names">Erma <i>&</i> Rod</span>
+            <span class="mini-date">JANUARY 23, 2027</span>
+          </div>
+          <div class="envelope-left"></div>
+          <div class="envelope-right"></div>
+          <div class="envelope-front"></div>
+          <div class="envelope-flap"></div>
+          <div class="wax-seal"><span> E <small>&</small> R </span></div>
+        </div>
+        <div class="envelope-copy">
+          <p class="eyebrow">You are warmly invited</p>
+          <h1>Erma <span>&</span> Rod</h1>
+          <p class="subline">A beautiful beginning awaits.</p>
+          <button class="primary-button" id="openInvitation" type="button">Open Invitation <span aria-hidden="true">↗</span></button>
+        </div>
+        <p class="tiny-note">Please turn on your sound for a gentle melody.</p>
+      </div>
+    </section>
+
+    <div class="invitation-content" id="invitationContent" aria-hidden="true">
+      <header class="site-header">
+        <a href="#home" class="monogram" aria-label="Erma and Rod home">E<span>&</span>R</a>
+        <nav aria-label="Main navigation">
+          <a href="#details">The Details</a>
+          <a href="#story">Our Story</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#rsvp">RSVP</a>
+        </nav>
+        <button class="music-toggle" id="musicToggle" type="button" aria-label="Play background melody" aria-pressed="false">
+          <span class="music-icon">♫</span><span class="music-label">Play melody</span>
+        </button>
+      </header>
+
+      <section class="hero section-pad" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">Together with their families</p>
+          <p class="invitation-line">joyfully invite you to celebrate</p>
+          <h2 class="couple-name">Erma <span>and</span><br>Rod</h2>
+          <div class="ornament"><span></span> ❧ <span></span></div>
+          <p class="hero-date">SATURDAY <b>·</b> JANUARY 23, 2027</p>
+          <p class="hero-tagline">Two hearts. One promise. A lifetime of love.</p>
+          <a href="#details" class="text-link">Discover the details <span>↓</span></a>
+        </div>
+        <div class="hero-art">
+          <div class="photo-frame">
+            <div class="photo-placeholder">
+              <span class="photo-ornament">❧</span>
+              <span class="photo-placeholder-title">Your favorite photo</span>
+              <span class="photo-placeholder-sub">Replace with Erma & Rod's portrait</span>
+            </div>
+          </div>
+          <span class="art-caption">A new chapter begins</span>
+          <span class="hero-sparkle sparkle-a">✧</span><span class="hero-sparkle sparkle-b">✦</span>
+        </div>
+        <div class="hero-side-note">A CELEBRATION OF LOVE · 2027</div>
+      </section>
+
+      <section class="countdown-section section-pad">
+        <p class="eyebrow">The days until forever</p>
+        <h2 class="section-title">Counting down to our day</h2>
+        <div class="countdown" aria-label="Countdown to the wedding">
+          <div class="count-unit"><span id="days">---</span><small>Days</small></div>
+          <div class="count-divider">:</div>
+          <div class="count-unit"><span id="hours">--</span><small>Hours</small></div>
+          <div class="count-divider">:</div>
+          <div class="count-unit"><span id="minutes">--</span><small>Minutes</small></div>
+          <div class="count-divider">:</div>
+          <div class="count-unit"><span id="seconds">--</span><small>Seconds</small></div>
+        </div>
+        <p class="countdown-message" id="countdownMessage">Every second brings us closer to forever.</p>
+      </section>
+
+      <section class="details-section section-pad" id="details">
+        <div class="section-heading">
+          <p class="eyebrow">Save the date</p>
+          <h2 class="section-title">The Wedding Day</h2>
+          <p class="section-intro">We would be delighted to share this special day with you.</p>
+        </div>
+        <div class="detail-grid">
+          <article class="detail-card">
+            <div class="detail-icon">✧</div>
+            <p class="eyebrow">The Ceremony</p>
+            <h3>Wedding Ceremony</h3>
+            <p class="detail-time">3:00 in the afternoon</p>
+            <div class="fine-line"></div>
+            <p class="detail-location">Venue details to be confirmed</p>
+            <p class="detail-small">The place where our forever begins.</p>
+          </article>
+          <article class="detail-card detail-card-accent">
+            <div class="detail-icon">❧</div>
+            <p class="eyebrow">The Celebration</p>
+            <h3>Reception</h3>
+            <p class="detail-time">Following the ceremony</p>
+            <div class="fine-line"></div>
+            <p class="detail-location">Reception details to be confirmed</p>
+            <p class="detail-small">Dinner, laughter, and memories together.</p>
+          </article>
+        </div>
+        <p class="details-note">The couple will share the confirmed venue and schedule with guests.</p>
+      </section>
+
+      <section class="quote-band">
+        <span class="quote-flower">❧</span>
+        <p class="eyebrow">A promise for a lifetime</p>
+        <blockquote>“And so, together, they begin<br>their most beautiful chapter.”</blockquote>
+        <span class="quote-rule"></span>
+      </section>
+
+      <section class="story-section section-pad" id="story">
+        <div class="story-art">
+          <div class="story-photo story-photo-large"><span>Place a favorite<br>couple photo here</span></div>
+          <div class="story-photo story-photo-small"><span>Another lovely<br>memory</span></div>
+          <span class="story-flower">❧</span>
+        </div>
+        <div class="story-copy">
+          <p class="eyebrow">A little about us</p>
+          <h2 class="section-title">Two lives, one lovely story.</h2>
+          <p>Some moments change everything. With grateful hearts and so much joy, Erma and Rod invite you to be part of the day they begin their next chapter together.</p>
+          <p>Your presence, warm wishes, and shared laughter will make this celebration even more meaningful.</p>
+          <div class="signature">With love, <span>Erma & Rod</span></div>
+        </div>
+      </section>
+
+      <section class="gallery-section section-pad" id="gallery">
+        <div class="section-heading">
+          <p class="eyebrow">Little moments, lasting memories</p>
+          <h2 class="section-title">Our Gallery</h2>
+          <p class="section-intro">A few favorite frames from their journey.</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-tile gallery-one"><span>Photo 01</span></div>
+          <div class="gallery-tile gallery-two"><span>Photo 02</span></div>
+          <div class="gallery-tile gallery-three"><span>Photo 03</span></div>
+        </div>
+        <p class="gallery-tip">Replace these photo placeholders with the couple's own pictures.</p>
+      </section>
+
+      <section class="rsvp-section section-pad" id="rsvp">
+        <div class="rsvp-card">
+          <div class="rsvp-decoration">❧</div>
+          <p class="eyebrow">Kindly reply</p>
+          <h2 class="section-title">Will you join us?</h2>
+          <p class="rsvp-intro">Your presence would mean the world to us. Please let us know if you can celebrate with us.</p>
+          <form id="rsvpForm">
+            <label for="guestName">Your full name</label>
+            <input id="guestName" name="guestName" type="text" placeholder="Enter your full name" required>
+            <label for="attendance">Will you be attending?</label>
+            <select id="attendance" name="attendance" required>
+              <option value="" disabled selected>Please choose one</option>
+              <option value="Joyfully accepts">Joyfully accepts</option>
+              <option value="Regretfully declines">Regretfully declines</option>
+            </select>
+            <label for="guestMessage">A note for the couple <span>(optional)</span></label>
+            <textarea id="guestMessage" name="guestMessage" rows="3" placeholder="Write a little message..."></textarea>
+            <button class="primary-button rsvp-button" type="submit">Prepare RSVP <span>↗</span></button>
+            <p class="form-note">Demo form: this opens your email app and does not store responses online.</p>
+          </form>
+          <p class="form-success" id="formSuccess" role="status" hidden></p>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-monogram">E <span>&</span> R</div>
+        <p class="footer-script">We can't wait to celebrate with you.</p>
+        <p class="footer-date">JANUARY 23, 2027</p>
+        <p class="footer-small">MADE WITH LOVE FOR ERMA & ROD</p>
+        <a class="back-top" href="#home">Back to the beginning ↑</a>
+      </footer>
+    </div>
+  </main>
+
+  <audio id="backgroundMusic" src="music/song.mp3" preload="auto" loop></audio>
+</body>
+</html>
